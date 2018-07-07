@@ -27,8 +27,7 @@ Wavenet系统架构融合了dilated CNN、残差网络、CTC、LSTM中的门以�
 1、python chainer_train.py进行训练（文件路径需要修改）<br>
 2、python test.py进行测试（文件路径需要修改）<br>
 
-Smart coatroom based on artificial intelligence technology
-===
+
 Background
 ------
 Clothing is the one of the most important part in our life as well as an important component of human civilization.<br>
