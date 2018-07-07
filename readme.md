@@ -27,20 +27,17 @@ Wavenet系统架构融合了dilated CNN、残差网络、CTC、LSTM中的门以�
 1、python chainer_train.py进行训练（文件路径需要修改）<br>
 2、python test.py进行测试（文件路径需要修改）<br>
 
+# Smart coatroom based on artificial intelligence technology
 
-Background
-------
+## Background
 Clothing is the one of the most important part in our life as well as an important component of human civilization.<br>
 In our daily life, everyone has many own clothes in the coatroom, and the majority of the men are lack of management over theirs clothes as well as the majority of women are willing to spend more time to match and change clothes before going outside. However, with the rapid development of technology, the more competitive pressure people have, the faster people live. Choosing clothes with our own eyes and senses every day and then match them quickly and rushed into the crowd will make our live too single and rough. At the same time, there are more and more smart home product integrated into people’s lives but artificial intelligence has few applications in the field of smart coatroom.<br>
 Based on this background, the project is going to develop a coatroom to meet the public demand which used the artificial intelligence. The project is able to manage clothing automatically, interact with users by using some artificial intelligence technologies includes speech recognition, speech synthesis and multi-round dialog system in specific scene, and make some clothing matching recommendation for user through the recommendation algorithm.<br>
-My Work
-------
+## My Work
 There are four members in our team, and the main work of this project can be divided into specific scenarios clothing identification and classification, speech recognition, multi-round dialog system, speech synthesis, recommendation algorithm, and so on. My job is to train the model of speech recognition.
-Chainer
-------
+## Chainer
 Chainer is a deep learning framework which is similar to Tensorflow and keras. The reason why I trained speech recognition model by using Chainer is that the source target of this project is to participate into the 11th Intel cup series, and the game party required us to use this framework.
-Speech Recognition Model
-------
+## Speech Recognition Model
 Based on my investigation, I found Google has proposed WAVENET model for speech recognition in “WAVENET: A GENERATIVE MODEL FOR RAW AUDIO”, and they also declare that this model can be used in speech recognition with great performance.<br>
 There are some differences between WAVENET and traditional speech recognition model:<br>
 1\ Using CTC loss to implement end-to-end speech recognition so that can avoid the overhead and impart of result alignment.<br>
